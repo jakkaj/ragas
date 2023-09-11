@@ -34,3 +34,7 @@ test: ## Run tests
 test-e2e: ## Run end2end tests
 	echo "running end2end tests..."
 	@pytest tests/e2e -s
+
+
+run-sample:
+	python3 sample.py
